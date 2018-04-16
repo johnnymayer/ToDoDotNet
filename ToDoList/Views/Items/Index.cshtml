@@ -8,6 +8,7 @@
 <hr />
 <table class="table">
     <tr>
+        <th></th>
         <th>
             @Html.DisplayNameFor(model => model.Description)
         </th>
@@ -21,7 +22,21 @@
     {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => listItem.Description)
+                @using (Html.BeginForm("Done", "Items", new { id = listItem.ItemId}))
+            {
+                <button type="submit">Done</button>
+            }
+
+            </td>
+            <td>
+            @if (listItem.Done.Equals(false))
+            {
+                <span>@Html.DisplayFor(modelItem => listItem.Description)</span>
+            }
+            else
+            {
+             <span class="desc">@Html.DisplayFor(modelItem => listItem.Description)</span>
+            }
             </td>
             <td>
                 @Html.DisplayFor(modelItem => listItem.Category.Name)

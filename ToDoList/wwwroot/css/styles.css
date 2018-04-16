@@ -5,3 +5,7 @@
     background-color: rgba(0, 255, 255, 0.2);
     color: black;
 }
+
+.desc {
+    text-decoration-line: line-through;
+}

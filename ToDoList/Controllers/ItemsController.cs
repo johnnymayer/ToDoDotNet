@@ -72,5 +72,17 @@ namespace ToDoList.Controllers
             return View(thisItem);
         }
 
+        [HttpPost]
+        public IActionResult Done(int id)
+        {
+            Item thisItem = _db.Items.FirstOrDefault(items => items.ItemId == id);
+
+            thisItem.Done = !thisItem.Done;
+            _db.Entry(thisItem).State = EntityState.Modified;
+
+            _db.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
     }
 }

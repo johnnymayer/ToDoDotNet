@@ -12,5 +12,6 @@ namespace ToDoList.Models
         public string Description { get; set; }
         public int CategoryId { get; set; }
         public virtual Category Category { get; set; }
+        public bool Done { get; set; } = false;
     }
 }
