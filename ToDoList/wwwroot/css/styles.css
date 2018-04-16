@@ -1,2 +1,13 @@
-﻿body {
+﻿html, body, ul, li {
+    text-align: center;
+    font-size: 2vw;
+    /*background: url('https://images.unsplash.com/photo-1508905506399-4d18e9dc124e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f9ff811ed0ec13771a07926b873b318d&auto=format&fit=crop&w=3450&q=80') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover*/
+}
+
+ul, li, table,td, input, p {
+    background-color:white;
 }

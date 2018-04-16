@@ -15,6 +15,7 @@
     <Folder Include="wwwroot\img\" />
     <Folder Include="wwwroot\js\" />
     <Folder Include="Views\Shared\" />
+    <Folder Include="Views\Categories\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -27,8 +28,5 @@
 
   <ItemGroup>
     <Content Remove="appsettings.json" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Remove="Controllers\CategoriesController.cs" />
   </ItemGroup>
 </Project>
