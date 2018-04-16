@@ -20,10 +20,13 @@
                 @Html.DisplayFor(modelCategory => listCategory.Name)
             </td>
             <td>
-                @Html.ActionLink("Details", "Details", new { id = listCategory.CategoryId })
+            @Html.ActionLink("Details", "Details", new { id = listCategory.CategoryId }) |
+            @Html.ActionLink("Delete", "Delete", new { id = listCategory.CategoryId }) |
+            @Html.ActionLink("Edit", "Edit", new {id = listCategory.CategoryId})
             </td>
+        
         </tr>
     }
 </table>
-
+<p>@Html.ActionLink("Create New", "Create")</p>
 <p>@Html.ActionLink("Back to Home", "Index", "Home")</p>
