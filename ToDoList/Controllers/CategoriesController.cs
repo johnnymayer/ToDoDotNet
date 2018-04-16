@@ -4,9 +4,10 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
+
 namespace ToDoList.Controllers
 {
-    public class HomeController : Controller
+    public class CategoriesController : Controller
     {
         public IActionResult Index()
         {
