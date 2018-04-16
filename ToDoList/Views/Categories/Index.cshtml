@@ -1,11 +1,9 @@
 ﻿@model IEnumerable<ToDoList.Models.Category>
 
 @{
-    ViewData["Title"] = "Category";
+    ViewData["Title"] = "Categoreos";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
-<h1>TEST</h1>
 
 <table class="table">
     <tr>
@@ -22,8 +20,10 @@
                 @Html.DisplayFor(modelCategory => listCategory.Name)
             </td>
             <td>
-                <p>Edit, Details, Delete</p>
+                @Html.ActionLink("Details", "Details", new { id = listCategory.CategoryId })
             </td>
         </tr>
     }
 </table>
+
+<p>@Html.ActionLink("Back to Home", "Index", "Home")</p>

@@ -23,5 +23,11 @@ namespace ToDoList.Controllers
             List<Category> model = _db.Categories.ToList();
             return View(model);
         }
+
+        public IActionResult Details(int id)
+        {
+            Category thisCategory = _db.Categories.FirstOrDefault(categories => categories.CategoryId == id);
+            return View(thisCategory);
+        }
     }
 }
