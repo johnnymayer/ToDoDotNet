@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{8A465B01-91D1-47AC-8700-4095E33419D0}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ToDoList/Views/Items/Index.cshtml">
+    <Files>
+      <File FileName="ToDoList/Views/Items/Index.cshtml" Line="55" Column="57" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ToDoList PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>
