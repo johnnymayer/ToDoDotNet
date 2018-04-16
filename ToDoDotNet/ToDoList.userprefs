@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{8A465B01-91D1-47AC-8700-4095E33419D0}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ToDoList/wwwroot/css/styles.css">
+    <Files>
+      <File FileName="ToDoList/Models/Category.cs" Line="1" Column="1" />
+      <File FileName="ToDoList/Views/Home/Index.cshtml" Line="14" Column="8" />
+      <File FileName="ToDoList/Views/Items/Index.cshtml" Line="40" Column="57" />
+      <File FileName="ToDoList/Controllers/HomeController.cs" Line="17" Column="4" />
+      <File FileName="ToDoList/Views/Categories/Index.cshtml" Line="25" Column="81" />
+      <File FileName="ToDoList/Views/Items/Create.cshtml" Line="21" Column="14" />
+      <File FileName="ToDoList/Controllers/ItemsController.cs" Line="50" Column="9" />
+      <File FileName="ToDoList/Controllers/CategoriesController.cs" Line="59" Column="41" />
+      <File FileName="ToDoList/Program.cs" Line="21" Column="1" />
+      <File FileName="ToDoList/Startup.cs" Line="1" Column="1" />
+      <File FileName="ToDoList/Views/Categories/Details.cshtml" Line="13" Column="1" />
+      <File FileName="ToDoList/Views/Items/Details.cshtml" Line="14" Column="57" />
+      <File FileName="ToDoList/Views/Categories/Edit.cshtml" Line="15" Column="41" />
+      <File FileName="ToDoList/Views/Items/Edit.cshtml" Line="1" Column="1" />
+      <File FileName="ToDoList/Views/Items/Delete.cshtml" Line="15" Column="42" />
+      <File FileName="ToDoList/Views/Categories/Delete.cshtml" Line="4" Column="34" />
+      <File FileName="ToDoList/Views/Categories/Create.cshtml" Line="16" Column="2" />
+      <File FileName="ToDoList/Views/Shared/_Layout.cshtml" Line="10" Column="18" />
+      <File FileName="ToDoList/wwwroot/css/styles.css" Line="4" Column="211" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ToDoList PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>
