@@ -9,3 +9,23 @@
 .desc {
     text-decoration-line: line-through;
 }
+
+button {
+    box-shadow: 0 0 24px blue;
+    background-color: transparent;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 4px 2px;
+     border: none;
+}
+
+button:hover {
+    box-shadow: 0 0 36px black;
+}
+
+a:hover {
+     text-shadow: 0 0 36px black;
+     text-decoration: none;
+}
